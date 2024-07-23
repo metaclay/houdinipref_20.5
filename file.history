@@ -1,0 +1,75 @@
+HIP
+{
+/Users/andi/Documents/projects/houdini tutor/misc/comp shadow.hipnc
+/Users/andi/Desktop/temp/test/ok.hipnc
+/Users/andi/Documents/projects/houdini tutor/misc/render pass.hipnc
+/Users/andi/Desktop/temp/untitled.hipnc
+/Users/andi/Documents/projects/houdini tutor/misc/shadow.hipnc
+/Users/andi/Documents/projects/houdini tutor/misc/duck.hipnc
+/Users/andi/Documents/projects/houdini tutor/misc/reflection.hipnc
+/Users/andi/Documents/projects/houdini tutor/misc/projection.hipnc
+/Users/andi/Documents/projects/houdini tutor/misc/render pass 2.hipnc
+/Users/andi/Documents/projects/houdini tutor/misc/temp.hipnc
+/Users/andi/Documents/projects/houdini tutor/misc/untitled.hipnc
+/Users/andi/Documents/projects/houdini tutor/misc/untitled2.hipnc
+}
+PIC
+{
+$HOME/Downloads/cartoon girl.jpeg
+$HOME/Downloads/cafe 360.jpg
+/obj/grid_object1/copnet1/file1/
+op:/obj/grid_object1/copnet1/file1/
+op:/obj/grid_object1/copnet1
+op:/img/copnet1/file1/
+/img
+/img/copnet1/blur1/
+$HOME/Downloads/1706751212033.jpg
+op:/img/copnet1/blur1/
+$HOME/Downloads/ktp andi fix.jpg
+op:/obj/copnet1/blur1
+}
+GEO
+{
+$HOME/Documents/projects/houdini tutor/mastering destruction/res/TowerTop-SquareBuilding.bgeo
+}
+OTL
+{
+/Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/houdini/otls/OPlibTopRop.hda
+/Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/houdini/otls/OPlibLop.hda
+/Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/houdini/otls/OPlibObject.hda
+/Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/houdini/otls/OPlibSop.hda
+/Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/houdini/otls/OPlibVop.hda
+/Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/houdini/otls/MaterialX.hda
+/Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/houdini/otls/OPlibTop.hda
+/Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/packages/kinefx/otls/OPlibKineFX.hda
+/Users/andi/houdini/otls/otls/sop_testhda.hdanc
+/Users/andi/houdini/otls/otls/sop_andi.dev.my_test_hda.1.0.hdanc
+/Users/andi/Downloads/week_1_-_example_scene_and_hdas/Cutter_Geometry_keithdigital.hdanc
+/Users/andi/Downloads/week_1_-_example_scene_and_hdas/Shatter_keithdigital.hdanc
+}
+MISC
+{
+$HOME/Desktop/PROJECTVOL/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini/xfer/destructionbuilding.v02.abc
+$HOME/Desktop/PROJECTVOL/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini/xfer/dinoMSC_01.abc
+./Desktop/PROJECTVOL/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini/xfer/dinoMSC_01.abc
+$HOME/Documents/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini/xfer/dinoMSC_01.abc
+$JOB/projects/houdini/xfer/destructionbuilding.v02.abc
+$HOME/Documents/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini/xfer/destructionbuilding.v02.abc
+$HIP/render/TOTONG.exr
+$HIP/render2/TOTONG.exr
+$HIP/render2/TOTONG.png
+$HIP/render/$HIPNAME.test.$OS.$F4.exr
+$HIP/render/$HIPNAME.$OS.$F4.pic
+}
+ALEMBIC
+{
+./Desktop/PROJECTVOL/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini/xfer/dinoMSC_01.abc
+}
+PRJ
+{
+/Users/andi/Desktop/PROJECTVOL/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini
+/Users/andi/Documents/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini/hip
+/Users/andi/HoudiniProjects/newProject/
+/Users/andi/Documents/projects/HOUDINI_TUTOR_mastering destruction
+/Users/andi/Documents/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini
+}

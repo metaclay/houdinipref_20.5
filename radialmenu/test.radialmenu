@@ -1,0 +1,16 @@
+{
+	"fileversion":"20.5.278",
+	"name":"test",
+	"categories":"Standard",
+	"pane":"scene",
+	"label":"test",
+	"type":"submenu",
+	"items":{
+		"6":{
+			"label":"xx",
+			"type":"script_action",
+			"icon":"xx",
+			"script":"nodes = hou.selectedNodes()\nfor n in nodes :\n    print(n)"
+		}
+	}
+}

@@ -1,0 +1,299 @@
+// Magic: fef93b3e
+// Automatically generated PSI dialog (PSI version 19.5.493)
+// Sat Apr 13 18:27:55 2024
+
+
+f_tmp = FLOAT_FIELD;	// dialog.top.ui
+
+numCutters.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ numCutters.label = PARM_LABEL("Num Cutters", "numCutters") WIDTH(1.5);
+ PARM(integer, 1, "numCutters", none, none) RANGE(0,100)
+	LOCK_RANGE_MIN LABELREF(numCutters.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+cutterResolution.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ cutterResolution.label = PARM_LABEL("Cutter Resolution", "cutterResolution") WIDTH(1.5);
+ PARM(integer, 1, "cutterResolution", none, none) RANGE(2,1000)
+	LOCK_RANGE_MIN LABELREF(cutterResolution.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+seed.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ seed.label = PARM_LABEL("Seed", "seed") WIDTH(1.5);
+ PARM(float, 1, "seed", none, none) RANGE(0,1000)
+	 LABELREF(seed.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+addCutterID.gad = ROW
+{
+    HSTRETCH
+    { WIDTH(0.18) }
+
+    { WIDTH(1.5) }
+    { WIDTH(0.08) }
+
+    PARM_BUTTON("addCutterID", "Add cutter_id attribute") toggle VALUE(addCutterID.val);
+
+    { HSTRETCH }
+
+    { WIDTH(0.1) }
+}
+
+sepparm3.gad = 
+
+{
+    LAYOUT(vertical) HSTRETCH HMARGIN(0.18, 0.1)
+    NO_MARGIN_SPACING_SCALE
+
+    { HEIGHT(0.1) }
+    SEPARATOR;
+    { HEIGHT(0.1) }
+}
+
+largeNoiseAmp.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ largeNoiseAmp.label = PARM_LABEL("Large Noise Amplitude", "largeNoiseAmp") WIDTH(1.5);
+ PARM(float, 1, "largeNoiseAmp", none, none) RANGE(0,10)
+	 LABELREF(largeNoiseAmp.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+largeNoiseSize.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ largeNoiseSize.label = PARM_LABEL("Large Noise Size", "largeNoiseSize") WIDTH(1.5);
+ PARM(float, 1, "largeNoiseSize", none, none) RANGE(0,500)
+	 LABELREF(largeNoiseSize.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+largeNoiseOctaves.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ largeNoiseOctaves.label = PARM_LABEL("Large Noise Octaves", "largeNoiseOctaves") WIDTH(1.5);
+ PARM(float, 1, "largeNoiseOctaves", none, none) RANGE(0,10)
+	LOCK_RANGE_MIN LABELREF(largeNoiseOctaves.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+sepparm4.gad = 
+
+{
+    LAYOUT(vertical) HSTRETCH HMARGIN(0.18, 0.1)
+    NO_MARGIN_SPACING_SCALE
+
+    { HEIGHT(0.1) }
+    SEPARATOR;
+    { HEIGHT(0.1) }
+}
+
+addSubdivs.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ addSubdivs.label = PARM_LABEL("Add Mesh Subdivisions", "addSubdivs") WIDTH(1.5);
+ PARM(integer, 1, "addSubdivs", none, none) RANGE(0,4)
+	LOCK_RANGE_MIN LABELREF(addSubdivs.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+smallNoiseAmp.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ smallNoiseAmp.label = PARM_LABEL("Small Noise Amplitude", "smallNoiseAmp") WIDTH(1.5);
+ PARM(float, 1, "smallNoiseAmp", none, none) RANGE(0,10)
+	 LABELREF(smallNoiseAmp.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+smallNoiseSize.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ smallNoiseSize.label = PARM_LABEL("Small Noise Size", "smallNoiseSize") WIDTH(1.5);
+ PARM(float, 1, "smallNoiseSize", none, none) RANGE(0,10)
+	 LABELREF(smallNoiseSize.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+smallNoiseOctaves.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ smallNoiseOctaves.label = PARM_LABEL("Small Noise Octaves", "smallNoiseOctaves") WIDTH(1.5);
+ PARM(integer, 1, "smallNoiseOctaves", none, none) RANGE(0,10)
+	LOCK_RANGE_MIN LABELREF(smallNoiseOctaves.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+sepparm.gad = 
+
+{
+    LAYOUT(vertical) HSTRETCH HMARGIN(0.18, 0.1)
+    NO_MARGIN_SPACING_SCALE
+
+    { HEIGHT(0.1) }
+    SEPARATOR;
+    { HEIGHT(0.1) }
+}
+
+paddingMult.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ paddingMult.label = PARM_LABEL("Padding Multiplier", "paddingMult") WIDTH(1.5);
+ PARM(float, 1, "paddingMult", none, none) RANGE(0,10)
+	 LABELREF(paddingMult.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+paddinglower.gad = ROW
+{
+   HSTRETCH
+   { WIDTH(0.18) }
+
+   paddinglower.label = PARM_LABEL("Lower Padding", "paddinglower") WIDTH(1.5);
+   PARM(float, 3, "paddinglower", none, none, "X,Y,Z")
+	RANGE(-1,1)  LABELREF(paddinglower.label)
+	HSTRETCH;
+
+    { WIDTH(0.1) }
+}
+
+paddingUpper.gad = ROW
+{
+   HSTRETCH
+   { WIDTH(0.18) }
+
+   paddingUpper.label = PARM_LABEL("Upper Padding", "paddingUpper") WIDTH(1.5);
+   PARM(float, 3, "paddingUpper", none, none, "X,Y,Z")
+	RANGE(-1,1)  LABELREF(paddingUpper.label)
+	HSTRETCH;
+
+    { WIDTH(0.1) }
+}
+
+sepparm2.gad = 
+
+{
+    LAYOUT(vertical) HSTRETCH HMARGIN(0.18, 0.1)
+    NO_MARGIN_SPACING_SCALE
+
+    { HEIGHT(0.1) }
+    SEPARATOR;
+    { HEIGHT(0.1) }
+}
+
+trimOutsideObj.gad = ROW
+{
+    HSTRETCH
+    { WIDTH(0.18) }
+
+    { WIDTH(1.5) }
+    { WIDTH(0.08) }
+
+    PARM_BUTTON("trimOutsideObj", "Trim Outside Object") toggle VALUE(trimOutsideObj.val);
+
+    { HSTRETCH }
+
+    { WIDTH(0.1) }
+}
+
+expandTrim.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ expandTrim.label = PARM_LABEL("Expand Trim Object", "expandTrim") WIDTH(1.5);
+ PARM(float, 1, "expandTrim", none, none) RANGE(0,10)
+	 LABELREF(expandTrim.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+dialog_norm.gad = 
+{
+    LAYOUT(vertical) SPACING(0.02) HSTRETCH 
+    numCutters.gad; 
+    cutterResolution.gad; 
+    seed.gad; 
+    addCutterID.gad; 
+    sepparm3.gad; 
+    largeNoiseAmp.gad; 
+    largeNoiseSize.gad; 
+    largeNoiseOctaves.gad; 
+    sepparm4.gad; 
+    addSubdivs.gad; 
+    smallNoiseAmp.gad; 
+    smallNoiseSize.gad; 
+    smallNoiseOctaves.gad; 
+    sepparm.gad; 
+    paddingMult.gad; 
+    paddinglower.gad; 
+    paddingUpper.gad; 
+    sepparm2.gad; 
+    trimOutsideObj.gad; 
+    expandTrim.gad; 
+} 
+// dialog.bot.ui
+
+extrastuffstowbar_minimize.val := 1;
+
+dialog = OPENNOTIFIER
+{
+    LAYOUT(vertical) SPACING(0.02) LOOK(bg) VALUE(open.val_) HSTRETCH
+
+    { HEIGHT(1p) LOOK(bg) HSTRETCH }
+
+    dialog_norm.gad;
+}

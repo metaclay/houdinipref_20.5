@@ -1,0 +1,51 @@
+HIP
+{
+/Users/andi/Documents/projects/houdini tutor/
+/Users/andi/Documents/projects/houdini tutor/mastering destruction/week01/
+/Users/andi/Desktop/PROJECTVOL/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini/hip/
+/Users/andi/Documents/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini/hip/
+/Users/andi/HoudiniProjects/newProject/geo/
+/Users/andi/Downloads/
+/Users/andi/Documents/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini/
+/Users/andi/Documents/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini/hip/week02/
+/Users/andi/Desktop/temp/
+/Users/andi/Documents/tutorial/houdini/misc/
+/Users/andi/Desktop/temp/test/
+/Users/andi/Documents/projects/houdini tutor/misc/
+}
+PIC
+{
+$HOME/Desktop/temp/render2/
+$HOME/Downloads/desk/
+/Users/andi/Downloads/
+$HOME/Downloads/
+op:/obj/copnet1/
+}
+OTL
+{
+/Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/houdini/otls/
+/Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/packages/kinefx/otls/
+/Users/andi/houdini/otls/otls/
+/Users/andi/Downloads/week_1_-_example_scene_and_hdas/
+}
+MISC
+{
+$HOME/Desktop/PROJECTVOL/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini/xfer/
+/Users/andi/.__CLAY__/PROJECTS_SRC/HOUDINI_TUTOR_mastering destruction/projects/houdini/xfer/
+$JOB/projects/houdini/xfer/
+$HOME/Documents/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini/xfer/
+$HIP/render2/
+$HIP/render/
+}
+ALEMBIC
+{
+/Users/andi/.__CLAY__/PROJECTS_SRC/HOUDINI_TUTOR_mastering destruction/projects/houdini/xfer/
+}
+PRJ
+{
+/Users/andi/Desktop/PROJECTVOL/projects/HOUDINI_TUTOR_mastering destruction/projects/
+/Users/andi/Documents/projects/HOUDINI_TUTOR_mastering destruction/projects/houdini/
+/Users/andi/HoudiniProjects/newProject/
+/Users/andi/Documents/projects/
+/Users/andi/Documents/projects/HOUDINI_TUTOR_mastering destruction/projects/
+}

@@ -1,0 +1,186 @@
+// Magic: 3b0c9aef
+// Automatically generated PSI dialog (PSI version 19.5.493)
+// Sat Apr 13 17:34:02 2024
+
+
+f_tmp = FLOAT_FIELD;	// dialog.top.ui
+
+bbox_mode.gad = ROW
+{
+    HSTRETCH
+    { WIDTH(0.18) }
+
+    { WIDTH(1.5) }
+    { WIDTH(0.08) }
+
+    PARM_BUTTON("bbox_mode", "shrinkwarp bbox") toggle VALUE(bbox_mode.val);
+
+    { HSTRETCH }
+
+    { WIDTH(0.1) }
+}
+
+voxel_mode.gad = ROW
+{
+    HSTRETCH
+    { WIDTH(0.18) }
+
+    { WIDTH(1.5) }
+    { WIDTH(0.08) }
+
+    PARM_BUTTON("voxel_mode", "use VDB from poly") toggle VALUE(voxel_mode.val);
+
+    { HSTRETCH }
+
+    { WIDTH(0.1) }
+}
+
+vdb_detail.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ vdb_detail.label = PARM_LABEL("vdb detail", "vdb_detail") WIDTH(1.5);
+ PARM(float, 1, "vdb_detail", none, none) RANGE(0.01,10)
+	LOCK_RANGE_MIN LABELREF(vdb_detail.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+iso_detail.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ iso_detail.label = PARM_LABEL("iso detail", "iso_detail") WIDTH(1.5);
+ PARM(float, 1, "iso_detail", none, none) RANGE(10,100)
+	 LABELREF(iso_detail.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+cutter_num.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ cutter_num.label = PARM_LABEL("Num of cutter", "cutter_num") WIDTH(1.5);
+ PARM(integer, 1, "cutter_num", none, none) RANGE(0,100)
+	LOCK_RANGE_MIN LABELREF(cutter_num.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+cutter_orienation_seed.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ cutter_orienation_seed.label = PARM_LABEL("Cutter Orientation Seed", "cutter_orienation_seed") WIDTH(1.5);
+ PARM(integer, 1, "cutter_orienation_seed", none, none) RANGE(0,1000)
+	 LABELREF(cutter_orienation_seed.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+cutter_distribution_seed.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ cutter_distribution_seed.label = PARM_LABEL("Cutter Distribution Seed", "cutter_distribution_seed") WIDTH(1.5);
+ PARM(integer, 1, "cutter_distribution_seed", none, none) RANGE(0,1000)
+	 LABELREF(cutter_distribution_seed.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+low_freq_amp.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ low_freq_amp.label = PARM_LABEL("Low Freq Amplitude", "low_freq_amp") WIDTH(1.5);
+ PARM(integer, 1, "low_freq_amp", none, none) RANGE(0,100)
+	 LABELREF(low_freq_amp.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+low_freq_size.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ low_freq_size.label = PARM_LABEL("Low Freq Size", "low_freq_size") WIDTH(1.5);
+ PARM(integer, 1, "low_freq_size", none, none) RANGE(300,500)
+	 LABELREF(low_freq_size.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+newparameter.gad = 
+{
+    LAYOUT(horizontal) JUSTIFY(left, center) HSTRETCH
+    { WIDTH(0.18) }
+
+    newparameter.label = PARM_LABEL_SIMPLE("Label", "newparameter") WIDTH(1.5);
+    { WIDTH(0.09) }
+
+    newparameter.menu;
+
+    { HSTRETCH }
+
+    { WIDTH(0.1) }
+}
+
+cutterextend.gad = 
+{
+
+ LAYOUT(horizontal) HSTRETCH
+ { WIDTH(0.18) }
+
+ cutterextend.label = PARM_LABEL("cutter extend", "cutterextend") WIDTH(1.5);
+ PARM(float, 1, "cutterextend", none, none) RANGE(0,5)
+	 LABELREF(cutterextend.label) HSTRETCH;
+
+  { WIDTH(0.1) }
+}
+
+# warning cpp warning: "GenV3/subdialog.top.ui":5 Macro "PARMSPACING" redefined.  Using later definition
+# warning cpp warning: "GenV3/subdialog.top.ui":6 Macro "LAYOUTDIR" redefined.  Using later definition
+# warning cpp warning: "GenV3/subdialog.top.ui":7 Macro "DO_JUSTIFY" redefined.  Using later definition
+dialog_norm.gad = 
+{
+    LAYOUT(vertical) SPACING(0.02) HSTRETCH 
+    bbox_mode.gad; 
+    voxel_mode.gad; 
+    vdb_detail.gad; 
+    iso_detail.gad; 
+    cutter_num.gad; 
+    cutter_orienation_seed.gad; 
+    cutter_distribution_seed.gad; 
+    low_freq_amp.gad; 
+    low_freq_size.gad; 
+    newparameter.gad; 
+    cutterextend.gad; 
+} 
+// dialog.bot.ui
+
+extrastuffstowbar_minimize.val := 1;
+
+dialog = OPENNOTIFIER
+{
+    LAYOUT(vertical) SPACING(0.02) LOOK(bg) VALUE(open.val_) HSTRETCH
+
+    { HEIGHT(1p) LOOK(bg) HSTRETCH }
+
+    dialog_norm.gad;
+}
