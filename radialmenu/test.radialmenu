@@ -6,6 +6,12 @@
 	"label":"test",
 	"type":"submenu",
 	"items":{
+		"5":{
+			"label":"Ambient Light",
+			"type":"script_action",
+			"icon":"OBJ_light",
+			"script":"radialmenu.runShelfTool(kwargs, 'object_ambient')"
+		},
 		"6":{
 			"label":"xx",
 			"type":"script_action",

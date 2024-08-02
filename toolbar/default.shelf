@@ -4,4 +4,8 @@
  It should not be hand-edited when it is being used by the application.
  Note, that two definitions of the same element are not allowed in
  a single file. -->
+
+  <shelfSetEdit name="solaris_1" fileLocation="/Applications/Houdini/Houdini20.5.278/Frameworks/Houdini.framework/Versions/20.5/Resources/houdini/toolbar/Solaris.shelf">
+    <addMemberToolshelf name="create" inPosition="2"/>
+  </shelfSetEdit>
 </shelfDocument>

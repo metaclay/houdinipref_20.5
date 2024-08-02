@@ -1,21 +1,20 @@
 HIP
 {
-/Users/andi/Documents/projects/houdini tutor/misc/comp shadow.hipnc
-/Users/andi/Desktop/temp/test/ok.hipnc
-/Users/andi/Documents/projects/houdini tutor/misc/render pass.hipnc
-/Users/andi/Desktop/temp/untitled.hipnc
-/Users/andi/Documents/projects/houdini tutor/misc/shadow.hipnc
-/Users/andi/Documents/projects/houdini tutor/misc/duck.hipnc
-/Users/andi/Documents/projects/houdini tutor/misc/reflection.hipnc
 /Users/andi/Documents/projects/houdini tutor/misc/projection.hipnc
 /Users/andi/Documents/projects/houdini tutor/misc/render pass 2.hipnc
 /Users/andi/Documents/projects/houdini tutor/misc/temp.hipnc
 /Users/andi/Documents/projects/houdini tutor/misc/untitled.hipnc
 /Users/andi/Documents/projects/houdini tutor/misc/untitled2.hipnc
+/Users/andi/Documents/projects/houdini tutor/misc/backup/solaris_bak3.hipnc
+/Users/andi/Documents/projects/houdini tutor/misc/untitled3.hipnc
+/Users/andi/Documents/projects/houdini tutor/misc/solaris.hipnc
+/Users/andi/Documents/projects/houdini tutor/A Beautiful Game No Cache/P2_MantraToKarma.hip
+/Users/andi/Documents/projects/houdini tutor/A Beautiful Game No Cache/P3_KarmaROP.hip
+/Users/andi/Documents/projects/houdini tutor/A Beautiful Game No Cache/P4_MATERIALX_VEX.hip
+/Users/andi/Documents/projects/houdini tutor/misc/smoke 01.hipnc
 }
 PIC
 {
-$HOME/Downloads/cartoon girl.jpeg
 $HOME/Downloads/cafe 360.jpg
 /obj/grid_object1/copnet1/file1/
 op:/obj/grid_object1/copnet1/file1/
@@ -27,15 +26,19 @@ $HOME/Downloads/1706751212033.jpg
 op:/img/copnet1/blur1/
 $HOME/Downloads/ktp andi fix.jpg
 op:/obj/copnet1/blur1
+$HOME/Downloads/cartoon girl.jpeg
 }
 GEO
 {
 $HOME/Documents/projects/houdini tutor/mastering destruction/res/TowerTop-SquareBuilding.bgeo
 }
+FONT
+{
+Lato Bold
+Lato
+}
 OTL
 {
-/Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/houdini/otls/OPlibTopRop.hda
-/Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/houdini/otls/OPlibLop.hda
 /Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/houdini/otls/OPlibObject.hda
 /Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/houdini/otls/OPlibSop.hda
 /Applications/Houdini/Houdini19.5.361/Frameworks/Houdini.framework/Versions/19.5/Resources/houdini/otls/OPlibVop.hda
@@ -46,6 +49,8 @@ OTL
 /Users/andi/houdini/otls/otls/sop_andi.dev.my_test_hda.1.0.hdanc
 /Users/andi/Downloads/week_1_-_example_scene_and_hdas/Cutter_Geometry_keithdigital.hdanc
 /Users/andi/Downloads/week_1_-_example_scene_and_hdas/Shatter_keithdigital.hdanc
+$HOUDINI_USER_PREF_DIR/otls/Recipes.hdanc
+/Users/andi/Library/Preferences/houdini/20.5/otls/Recipes.hdanc
 }
 MISC
 {
@@ -60,6 +65,7 @@ $HIP/render2/TOTONG.exr
 $HIP/render2/TOTONG.png
 $HIP/render/$HIPNAME.test.$OS.$F4.exr
 $HIP/render/$HIPNAME.$OS.$F4.pic
+Lato
 }
 ALEMBIC
 {
